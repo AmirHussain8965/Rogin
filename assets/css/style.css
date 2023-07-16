@@ -43,7 +43,18 @@ body{
 .home_sec1_text_div{
     margin-top: 30px;
     width: 100%;
-    max-width: 450px;
+    max-width: 550px;
+    height: 450px;
+    overflow-y: auto;
+    text-align: right;
+    padding: 0px 10px;
+}
+.home_sec1_text_div h2{
+    padding-top: 20px;
+    color: #000000;
+}
+.home_sec1_text_div h5{
+    font-size: 20px;
 }
 .home_sec1_text_div p{
     padding-top: 10px;
