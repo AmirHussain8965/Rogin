@@ -274,7 +274,7 @@ body{
 @media (min-width:1370px){
     .hero_section{
         background-image: url(../../assets/img/hero.png);
-        height: 77vh;
+        height: 80vh;
         width: 100%;
         background-repeat: no-repeat;
         background-size: contain;
@@ -297,7 +297,7 @@ body{
         margin: auto;
     }
     .hero_section{
-        background-image: url(../../assets/img/hero.png);
+        background-image: url(../../assets/img/mobile-banner.jpg);
         height: 41vh;
         width: 100%;
         background-repeat: no-repeat;
