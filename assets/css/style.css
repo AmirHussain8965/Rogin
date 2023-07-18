@@ -26,8 +26,8 @@ body{
     width: max-content;
 }
 .hero_section{
-    background-image: url(../../assets/img/hero.png);
-    height: 78vh;
+    background-image: url(../../assets/img/mobile-banner.jpg);
+    height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -79,14 +79,16 @@ body{
     font-size: 5.7vw;
     font-weight: 700;
     letter-spacing: 2px;
+    color: #31435B;
 }
 .mobile_view_hero_text h2{
     font-size: 5.5vw;
     font-weight: 600;
     letter-spacing: 2px;
+    color: #EC5622;
 }
 .mobile_view_hero_text p{
-    color: #EC5622;
+    color: #000000;
     font-size: 4vw;
     font-weight: 700;
     letter-spacing: 1px;
@@ -271,19 +273,10 @@ body{
     border: none;
     box-shadow: none;
 }
-@media (min-width:1370px){
-    .hero_section{
-        background-image: url(../../assets/img/hero.png);
-        height: 80vh;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-}
 @media (max-width:1200px){
     .hero_section{
-        background-image: url(../../assets/img/hero.png);
-        height: 48vh;
+        background-image: url(../../assets/img/mobile-banner.jpg);
+        height: 62vh;
         width: 100%;
         background-repeat: no-repeat;
         background-size: contain;
@@ -296,24 +289,23 @@ body{
     .navbar ul li a.active{
         margin: auto;
     }
-    .hero_section{
-        background-image: url(../../assets/img/mobile-banner.jpg);
-        height: 41vh;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
 }
 @media (max-width:768px){
     .hero_section{
         background-image: none;
-        background-color: #420B73;
+        background-color: #fff;
         height: auto;
     }
     .mobile_view_hero_text{
         display: block;
         color: #fff;
         text-align: right;
+    }
+    .mobile_view_hero_text h1{
+        font-weight: 900;
+    }
+    .mobile_view_hero_text h2{
+        font-weight: 700;
     }
 }
 @media (max-width:550px){
@@ -357,6 +349,9 @@ body{
         font-size: 5.2vw;
         font-weight: 700;
         letter-spacing: 2px;
+    }
+    .home_section_one{
+        margin-top: 0;
     }
 }
 @media (max-width:340px){
