@@ -292,15 +292,13 @@ body{
 }
 @media (max-width:768px){
     .hero_section{
-        background-image: none;
-        background-color: #fff;
-        height: auto;
+        height: 30vh;
     }
-    .mobile_view_hero_text{
+    /* .mobile_view_hero_text{
         display: block;
         color: #fff;
         text-align: right;
-    }
+    } */
     .mobile_view_hero_text h1{
         font-weight: 900;
     }
@@ -309,6 +307,9 @@ body{
     }
 }
 @media (max-width:550px){
+    .hero_section{
+        height: 25vh;
+    }
     .footer2_icons1_div img {
         height: 35px;
         width: auto;
@@ -338,7 +339,7 @@ body{
 }
 @media (max-width:400px){
     .hero_section{
-        height: 50vh;
+        height: 22vh;
     }
     .mobile_view_hero_text h2 {
         font-size: 5.1vw;
@@ -356,7 +357,7 @@ body{
 }
 @media (max-width:340px){
     .hero_section {
-        height: auto;
+        height: 20vh;
     }
     .home_sec1_img_div img {
         width: 100%;
@@ -373,5 +374,9 @@ body{
         font-style: normal;
         font-weight: 600;
         font-size: 25px;
+    }
+    .navlogo {
+        height: 40px;
+        width: auto;
     }
 }
