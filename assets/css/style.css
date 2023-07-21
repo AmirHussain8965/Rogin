@@ -26,7 +26,7 @@ body{
     width: max-content;
 }
 .hero_section{
-    background-image: url(../../assets/img/mobile-banner.jpg);
+    background-image: url(../../assets/img/banner2.png);
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@ body{
     margin-top: 30px;
 }
 .home_section_one {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 .home_sec1_text_div{
     margin-top: 30px;
@@ -112,10 +112,6 @@ body{
     border-radius: 38px;
     border: none;
 }
-.home_sec2_card_body_div{
-    position: relative;
-    margin-top: 30px;
-}
 .home_sec2_card_body_div .main_img{
     width: 100%;
     height: 100%;
@@ -131,7 +127,8 @@ body{
     height: 80px;
     width: 80px;
 } 
-/* .home_sec2_card_body_div{
+.home_sec2_card_body_div{
+    position: relative;
     background: #31445B;
     border-radius: 12px;
     height: auto;
@@ -139,6 +136,7 @@ body{
     padding: 30px;
     max-width: 350px;
     text-align: center;
+    margin: auto;
     margin-top: 30px;
 }
 .home_sec2_card_body_div.card_active{
@@ -189,7 +187,7 @@ body{
     padding: 8px;
     min-width: 130px;
     color: #fff;
-} */
+}
 .footer_section{
     margin-top: 80px;
 }
@@ -273,13 +271,104 @@ body{
     border: none;
     box-shadow: none;
 }
-@media (max-width:1200px){
-    .hero_section{
-        background-image: url(../../assets/img/mobile-banner.jpg);
-        height: 62vh;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: contain;
+.package_text_div h4{
+    text-align: right;
+}
+.package_text_div p{
+    text-align: right;
+}
+.package_text_div h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 35px;
+    font-weight: 900;
+    font-size: 50px;
+}
+.package_text_div h1 sub{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.package_text_div h1 sup{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    top: -30px;
+    font-weight: 400;
+}
+.package_text_terms{
+    padding-top: 20px;
+}
+.package_text_terms p{
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+.package_text_terms p i{
+    text-align: right;
+    padding-left: 10px;
+}
+.contact_section_one{
+    background-color: #3E5A74;
+    height: auto;
+    min-height: 300px;
+    padding: 30px 20px;
+}
+.contact_title{
+    max-width: 500px;
+}
+.contact_title h1{
+    color: #fff;
+}
+.contact_title p{
+    padding-top: 10px;
+    color: #fff;
+}
+.contact_section_two{
+    position: relative;
+    top: -80px;
+}
+.contact_card_body{
+    width: 100%;
+    padding: 25px;
+    background-color: aliceblue;
+    text-align: center;
+    min-height: 300px;
+}
+.contact_card_body i{
+    font-size: 40px;
+    text-align: center;
+}
+.contact_card_body h2{
+    font-size: 26px;
+    padding-top: 12px;
+}
+.contact_card_body p{
+    padding-top: 12px;
+}
+.contact_card_body a{
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.contact_card_body button{
+    background: #EC5620;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    min-width: 160px;
+    color: #fff;
+}
+@media (max-width:1300px){
+    .hero_section {
+        height: 80vh;
+    }
+}
+@media (max-width:1170px){
+    .hero_section {
+        height: 65vh;
     }
 }
 @media (max-width:992px){
@@ -289,10 +378,16 @@ body{
     .navbar ul li a.active{
         margin: auto;
     }
+    .hero_section {
+        height: 50vh;
+    }
 }
 @media (max-width:768px){
     .hero_section{
-        height: 30vh;
+        height: 45vh;
+    }
+    .contact_card_body{
+        margin-top: 30px;
     }
     /* .mobile_view_hero_text{
         display: block;
@@ -306,9 +401,17 @@ body{
         font-weight: 700;
     }
 }
+@media (max-width:650px){
+    .hero_section{
+        height: 35vh;
+    }
+}
 @media (max-width:550px){
     .hero_section{
-        height: 25vh;
+        height: 30vh;
+    }
+    .footer2_icons_main_div{
+        justify-content: center;
     }
     .footer2_icons1_div img {
         height: 35px;
@@ -337,9 +440,9 @@ body{
         margin-left: 12px;
     }
 }
-@media (max-width:400px){
+@media (max-width:440px){
     .hero_section{
-        height: 22vh;
+        height: 25vh;
     }
     .mobile_view_hero_text h2 {
         font-size: 5.1vw;
@@ -357,7 +460,7 @@ body{
 }
 @media (max-width:340px){
     .hero_section {
-        height: 20vh;
+        height: 180px;
     }
     .home_sec1_img_div img {
         width: 100%;
