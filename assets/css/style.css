@@ -318,14 +318,16 @@ body{
     padding: 30px 20px;
 }
 .contact_title{
-    max-width: 500px;
+    padding-top: 20px;
 }
 .contact_title h1{
     color: #fff;
+    text-align: right;
 }
 .contact_title p{
     padding-top: 10px;
     color: #fff;
+    text-align: right;
 }
 .contact_section_two{
     position: relative;
