@@ -413,6 +413,14 @@ body{
     .hero_section{
         height: 30vh;
     }
+    .package_text_div h1 {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 0;
+        margin-top: 35px;
+        font-weight: 900;
+        font-size: 26px;
+    }
     .footer2_icons_main_div{
         justify-content: center;
     }
@@ -462,6 +470,14 @@ body{
     }
 }
 @media (max-width:340px){
+    .package_text_div h1 {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 0;
+        margin-top: 35px;
+        font-weight: 900;
+        font-size: 26px;
+    }
     .hero_section {
         height: 180px;
     }
@@ -473,7 +489,7 @@ body{
     .home_sec2_card_body_div p {
         font-style: normal;
         font-weight: 500;
-        font-size: 15px;
+        font-size: 13px;
     }
     .home_sec2_card_body_div h4 {
         padding-top: 20px;
