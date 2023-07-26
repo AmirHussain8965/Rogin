@@ -468,6 +468,13 @@ body{
     .home_section_one{
         margin-top: 0;
     }
+    .footer2_icons1_div{
+        gap: 15px;
+    }
+    .footer2_icons1_div img {
+        height: 30px;
+        width: auto;
+    }
 }
 @media (max-width:340px){
     .package_text_div h1 {
