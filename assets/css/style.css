@@ -475,6 +475,9 @@ body{
         height: 30px;
         width: auto;
     }
+    .remove{
+        display: none;
+    }
 }
 @media (max-width:340px){
     .package_text_div h1 {
